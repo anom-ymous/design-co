@@ -1,3 +1,7 @@
+<!--CAROUSEL BLOCK -->
+
+<!--WHAT WE DO BLOCK-->
+
 <style>
     body {
         background-color: #F8F8F8;
@@ -11,18 +15,13 @@
 	}
 </style>
 
-
-<!--WHAT WE DO BLOCK-->
-
-<h1>What We Do</h1>
+<h1 style="margin: 32px 0;">What We Do</h1>
 
 <p>We engage individuals as well as small and large groups by connecting them with local nonprofit organizations where they can donate their time and talent for a variety of projects and activities. Nonprofit organizations benefit because volunteer engagement increases their reach and capacity. Volunteers benefit because they witness first-hand how they are positively impacting the San Diego region.</p>
 
 <hr class="divider"/>
 
-<!--IMAGE BLOCK-->
-
-<!--MISSION AND VISION-->
+<!--MISSION AND VISION BLOCK-->
 
 <style>
     .divider {
@@ -72,8 +71,29 @@
         line-height: 24px;
         margin: 0;
     }
+
+    .staticImg {
+        width: 1000px;
+        height: 361px;
+        flex-shrink: 0;
+        aspect-ratio: 241/87;
+
+        border-radius: 20px;
+        background: url(<path-to-image>) lightgray -3.027px 0.019px / 100.303% 99.989% no-repeat;
+        box-shadow: 0 4px 4px 2px rgba(173, 170, 169, 0.50);
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: center;
+
+        margin: 32px 0;
+    }
 </style>
 
+<div class="imageContainer">
+    <img class="staticImg" alt="Group of smiling volunteers distributing basic need items to community outside." src="https://hocps.blob.core.windows.net/000003/images/Our%20Mission%20Image.png"/>
+</div>
 <div class="container">
     <div class="block">
         <h4>
@@ -94,11 +114,99 @@
 
 </div>
 
-<!--WHAT WE'VE ACCOMPLISHED -- CHANGE TO SHORTHAND-->
-
 <hr class="divider"/>
 
-<!--TESTIMONIALS -- DO LAST, EDIT ON BUILDER-->
+<!--WHAT WE'VE ACCOMPLISHED -- ON EDITOR-->
+
+
+<!--TESTIMONIALS -->
+
+<style>
+    .divider {
+		width: 100%;
+		height: 3px;
+		margin: 48px 0;
+		background-color: #657113;
+		border: none;
+	}
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .testimonialBox {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    h4 {
+        color: #657113;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 0;
+    }
+
+    p {
+        color: #000;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        margin: 0;
+    }
+    
+    .testimonialText {
+        margin: 30px;
+
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .quoteBracket {
+        width: 30px;
+    }
+</style>
+
+<h1>Testimonials</h1>
+
+<p style="margin: 32px 0; color:#657113">
+    Hear from our community!
+</p>
+
+<div class="container"
+    style="gap: 48px;">
+    <div class="testimonialBox">
+        <img class="quoteBracket" src="https://hocps.blob.core.windows.net/000003/images/12fe18ee6d2574089ebe8bd93165ea3f1d56a9f6.png"/>
+        <h4 class="testimonialText">
+            Every one of our team members left feeling uplifted and moved by the experience. We would 10/10 recommend to others and participate again.
+        </h4>
+        <img class="quoteBracket" src="https://hocps.blob.core.windows.net/000003/images/088e2431b455e4ddd946fa1bc73f123f5892f74d.png"
+            style="align-self:flex-end"/>
+        <p style="margin: 32px 0; color:#657113">
+            —J.F, Corporate Partner
+        </p>
+    </div>
+    <div class="testimonialBox">
+        <img class="quoteBracket" src="https://hocps.blob.core.windows.net/000003/images/12fe18ee6d2574089ebe8bd93165ea3f1d56a9f6.png"/>
+        <h4 class="testimonialText">
+            As always, I get great joy and a feeling I can't explain when I lend a hand. I greatly appreciate you giving me the chance to do this.    
+        </h4>
+        <img class="quoteBracket" src="https://hocps.blob.core.windows.net/000003/images/088e2431b455e4ddd946fa1bc73f123f5892f74d.png"
+            style="align-self:flex-end"/>
+        <p style="margin: 32px 0; color:#657113">
+            —S.S, Volunteer
+        </p>
+    </div>
+</div>
 
 <hr class="divider"/>
 
@@ -136,9 +244,33 @@
 
 </style>
 
-<!--builder for header here-->
+
+<!--SUPPORT YOUR COMMUNITY BLOCK-->
+
+<style>
+    .staticImg {
+        width: 1000px;
+        height: 361px;
+        flex-shrink: 0;
+        aspect-ratio: 241/87;
+
+        border-radius: 20px;
+        background: url(<path-to-image>) lightgray -3.027px 0.019px / 100.303% 99.989% no-repeat;
+        box-shadow: 0 4px 4px 2px rgba(173, 170, 169, 0.50);
+    }
+
+    .imageContainer {
+        display: flex;
+        justify-content: center;
+
+        margin: 32px 0;
+    }
+</style>
 <h1>Support Your Community</h1> 
-<!--image block-->
+
+<div class="imageContainer">
+    <img class="staticImg" alt="Group of smiling volunteers distributing basic need items to community outside." src="https://hocps.blob.core.windows.net/000003/images/Support%20Your%20Community.png"/>
+</div>
 
 
 <div class="container">
